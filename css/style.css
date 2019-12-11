@@ -5,3 +5,7 @@
 .p, h1, h2, h3 {
     font-family: 'Gudea', sans-serif;
 }
+
+.band {
+    color: #e00079;
+}
