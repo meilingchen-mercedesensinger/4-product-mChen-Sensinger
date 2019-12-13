@@ -1929,3 +1929,16 @@ a {
 .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff!important
 }
+
+.w3-modal-content{
+    border-radius: 3px;
+}
+
+.w3-container {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+.w3-button {
+    border-radius: 3px;
+}
