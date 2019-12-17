@@ -9,13 +9,15 @@
     </head>
 
     <!--fonts-->
-   <link href="https://fonts.googleapis.com/css?family=Gudea&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oswald&display=swap" rel="stylesheet">
-    
+<link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+
+    <!--titles-->
+    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+
     <!--font awesome - dont delete-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    
+
     <style>
         body: {font-family: 'Gudea', sans-serif;}
         .mySlides: {display: none}
@@ -23,33 +25,33 @@
     <body>
 
         <!-- Navbar -->
-        <div class="w3-top" style= "font-family: 'Oswald', sans-serif; letter-spacing: 1.5px">
-  <div class="w3-bar w3-light-gray w3-card">
-    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
-    <a href="#" class="w3-bar-item w3-button w3-padding-large" >HOME</a>
-      
-    <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
-    <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SHOPPING</a>
-    <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
-    <!--div class="w3-dropdown-hover w3-hide-small">
-      button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.5px">MORE <i class="fa fa-caret-down"></i></button>     
-      <div class="w3-dropdown-content w3-bar-block w3-card-4">
-        <a href="#" class="w3-bar-item w3-button">Merchandise</a>
-        <a href="#" class="w3-bar-item w3-button">Extras</a>
-        <a href="#" class="w3-bar-item w3-button">Media</a>
-</div>
-    </div-->
-    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
-  </div>
-</div>
+        <div class="w3-top" style="font-family: 'Raleway', sans-serif;">
+            <div class="w3-bar w3-light-gray w3-card">
+                <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+                <a href="#" class="w3-bar-item w3-button w3-padding-large" >HOME</a>
+
+                <a href="#band" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT US</a>
+                <a href="#tour" class="w3-bar-item w3-button w3-padding-large w3-hide-small">SHOPPING</a>
+                <a href="#contact" class="w3-bar-item w3-button w3-padding-large w3-hide-small">CONTACT</a>
+                <!--div class="w3-dropdown-hover w3-hide-small">
+                button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.5px">MORE <i class="fa fa-caret-down"></i></button>     
+                <div class="w3-dropdown-content w3-bar-block w3-card-4">
+                <a href="#" class="w3-bar-item w3-button">Merchandise</a>
+                <a href="#" class="w3-bar-item w3-button">Extras</a>
+                <a href="#" class="w3-bar-item w3-button">Media</a>
+                </div>
+                </div-->
+                <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+            </div>
+        </div>
 
 
         <!-- Navbar on small screens (remove the onclick attribute if you want the navbar to always show on top of the content when clicking on the links) -->
-        <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px; background-color:#e8e8e8;">
-            <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">BAND</a>
-            <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">TOUR</a>
+        <div id="navDemo" class="w3-bar-block w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px; background-color:#e8e8e8; font-family: 'Raleway', sans-serif;">
+            <a href="#band" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">ABOUT US</a>
+            <a href="#tour" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">SHOPPING</a>
             <a href="#contact" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">CONTACT</a>
-            <a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>
+            <!--<a href="#" class="w3-bar-item w3-button w3-padding-large" onclick="myFunction()">MERCH</a>-->
         </div>
 
         <!-- Page content -->
@@ -58,15 +60,15 @@
             <!-- Automatic Slideshow Images -->
             <div class="mySlides w3-display-container w3-center">
                 <img src="img/pockyslides1-5.jpg" style="width:100%">
-                
+
                 <!--slide text-->
                 <!--<div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
-                    <h3></h3>
-                    <p></p>   
-                </div>-->
+<h3></h3>
+<p></p>   
+</div>-->
             </div>
-            
-            
+
+
             <div class="mySlides w3-display-container w3-center">
                 <img src="img/pockyslides2-2.jpg" style="width:100%">
                 <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
@@ -74,8 +76,8 @@
                     <p></p>    
                 </div>
             </div>
-            
-            
+
+
             <div class="mySlides w3-display-container w3-center">
                 <img src="img/pockyslides3-3-2.jpg" style="width:100%">
                 <div class="w3-display-bottommiddle w3-container w3-text-white w3-padding-32 w3-hide-small">
@@ -86,18 +88,18 @@
 
             <!-- The Band Section -->
             <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; text-align: center;" id="band">
-                <h2 class="w3-wide">POCKY</h2>
+                <h2 class="w3-wide" style="font-family: 'Raleway', sans-serif;">POCKY</h2>
                 <p class="w3-opacity"><i>What is it?</i></p>
                 <p class="w3-justify">Pocky is a snack food produced by Ezaki Glico. Pocky was first sold in 1966, and were invented by Yoshiaki Koma. They consist of chocolate-coated biscuit sticks. It was named after the Japanese onomatopoetic word pokkin (ポッキン).
 
-                The original was followed by an almond coating in 1971, and a strawberry coating in 1977. Today, the product line includes variations such as milk, mousse, green tea, honey, banana, cookies and cream, and coconut flavored coatings, and themed products such as "Decorer Pocky", with colorful decorative stripes in the coating.</p>
-                
+                    The original was followed by an almond coating in 1971, and a strawberry coating in 1977. Today, the product line includes variations such as milk, mousse, green tea, honey, banana, cookies and cream, and coconut flavored coatings, and themed products such as "Decorer Pocky", with colorful decorative stripes in the coating.</p>
+
                 <p class="w3-justify">Pocky is a very popular treat in Japan, especially among teenagers. In bars, it is sometimes served with a glass of ice water or milk It also has a significant presence in other Asian countries, such as China, South Korea, Thailand, Indonesia, the Philippines, Laos, Malaysia, Singapore, Hong Kong, Taiwan, India, Burma, Brunei and Vietnam. In Malaysia, Pocky was sold under the name "Rocky" for four decades. In 2014 it was rebranded under the name "Pocky" with a new package design and slogan. Commercials featuring Malaysian singer Yuna, also began to air in 2015 in order to give brand recognition and a sales boost.
 
-                In Europe Pocky is produced under license by Mondelēz International and sold under the name "Mikado" in Austria, Belgium, France, Germany, Greece, Italy, Ireland, Luxembourg, Spain, Switzerland and the United Kingdom. "Mikado" can be found at most supermarkets and many international food stores.
+                    In Europe Pocky is produced under license by Mondelēz International and sold under the name "Mikado" in Austria, Belgium, France, Germany, Greece, Italy, Ireland, Luxembourg, Spain, Switzerland and the United Kingdom. "Mikado" can be found at most supermarkets and many international food stores.
 
-                In the United States and Canada Pocky can be found in Asian supermarkets and the international section of most large supermarkets</p>
-                
+                    In the United States and Canada Pocky can be found in Asian supermarkets and the international section of most large supermarkets</p>
+
                 <div class="w3-row w3-padding-32">
                     <div class="w3-third">
                         <p>Name</p>
@@ -117,7 +119,7 @@
             <!-- The Tour Section -->
             <div class="w3-black" id="tour">
                 <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
-                    <h2 class="w3-wide w3-center">WHERE TO FIND US</h2>
+                    <h2 class="w3-wide w3-center" style="font-family: 'Raleway', sans-serif;">WHERE TO FIND US</h2>
                     <p class="w3-opacity w3-center"><i>Look for us in the Asian foods aisle!</i></p><br>
 
                     <ul class="w3-ul w3-border w3-white w3-text-grey">
@@ -133,60 +135,60 @@
                                 <p><b>Target</b></p>
                                 <!--<p class="w3-opacity">Fri 27 Nov 2016</p>-->
                                 <p>Pick up at a Target near you!</p>
-                                 
+
                                 <!-- orig button <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Order Here</button>-->
                                 <a style="border: none;
-                                display: inline-block;
-                                padding: 8px 16px;
-                                vertical-align: middle;
-                                overflow: hidden;
-                                text-decoration: none;
-                                color: inherit;
-                                background-color: inherit;
-                                text-align: center;
-                                cursor: pointer;
-                                white-space: nowrap
-                                " class="w3-red w3-margin-bottom" href="https://www.target.com/p/glico-pocky-chocolate-cream-covered-biscuit-sticks-1-41oz/-/A-52255967">Order Here</a>
+                                          display: inline-block;
+                                          padding: 8px 16px;
+                                          vertical-align: middle;
+                                          overflow: hidden;
+                                          text-decoration: none;
+                                          color: inherit;
+                                          background-color: inherit;
+                                          text-align: center;
+                                          cursor: pointer;
+                                          white-space: nowrap
+                                          " class="w3-red w3-margin-bottom" href="https://www.target.com/p/glico-pocky-chocolate-cream-covered-biscuit-sticks-1-41oz/-/A-52255967">Order Here</a>
                             </div>
                         </div>
                         <div class="w3-third w3-margin-bottom">
                             <img src="img/hmart2.jpg" alt="Paris" style="width:100%" class="w3-hover-opacity">
                             <div class="w3-container w3-white">
                                 <p><b>H-Mart</b></p>
-                               <!-- <p class="w3-opacity">Sat 28 Nov 2016</p>-->
+                                <!-- <p class="w3-opacity">Sat 28 Nov 2016</p>-->
                                 <p>Pick up at an H-Mart near you!</p>
                                 <a style="border: none;
-                                display: inline-block;
-                                padding: 8px 16px;
-                                vertical-align: middle;
-                                overflow: hidden;
-                                text-decoration: none;
-                                color: inherit;
-                                background-color: inherit;
-                                text-align: center;
-                                cursor: pointer;
-                                white-space: nowrap
-                                " class="w3-red w3-margin-bottom" href="https://www.target.com/p/glico-pocky-chocolate-cream-covered-biscuit-sticks-1-41oz/-/A-52255967">Order Here</a>
+                                          display: inline-block;
+                                          padding: 8px 16px;
+                                          vertical-align: middle;
+                                          overflow: hidden;
+                                          text-decoration: none;
+                                          color: inherit;
+                                          background-color: inherit;
+                                          text-align: center;
+                                          cursor: pointer;
+                                          white-space: nowrap
+                                          " class="w3-red w3-margin-bottom" href="https://www.target.com/p/glico-pocky-chocolate-cream-covered-biscuit-sticks-1-41oz/-/A-52255967">Order Here</a>
                             </div>
                         </div>
                         <div class="w3-third w3-margin-bottom">
                             <img src="img/walmart4.jpg" alt="San Francisco" style="width:100%" class="w3-hover-opacity">
                             <div class="w3-container w3-white">
                                 <p><b>Walmart</b></p>
-                               <!-- <p class="w3-opacity">Sun 29 Nov 2016</p>-->
+                                <!-- <p class="w3-opacity">Sun 29 Nov 2016</p>-->
                                 <p>Pick up at a Walmart near you!</p>
                                 <a style="border: none;
-                                display: inline-block;
-                                padding: 8px 16px;
-                                vertical-align: middle;
-                                overflow: hidden;
-                                text-decoration: none;
-                                color: inherit;
-                                background-color: inherit;
-                                text-align: center;
-                                cursor: pointer;
-                                white-space: nowrap;
-                                " class="w3-red w3-margin-bottom" href="https://www.walmart.com/ip/Glico-Pocky-Chocolate-Cream-Covered-Biscuit-Sticks-1-41-OZ/10543616">Order Here!</a>
+                                          display: inline-block;
+                                          padding: 8px 16px;
+                                          vertical-align: middle;
+                                          overflow: hidden;
+                                          text-decoration: none;
+                                          color: inherit;
+                                          background-color: inherit;
+                                          text-align: center;
+                                          cursor: pointer;
+                                          white-space: nowrap;
+                                          " class="w3-red w3-margin-bottom" href="https://www.walmart.com/ip/Glico-Pocky-Chocolate-Cream-Covered-Biscuit-Sticks-1-41-OZ/10543616">Order Here!</a>
                             </div>
                         </div>
                     </div>
@@ -217,7 +219,7 @@
 
             <!-- The Contact Section -->
             <div class="w3-container w3-content w3-padding-64" style="max-width:800px" id="contact">
-                <h2 class="w3-wide w3-center">CONTACT</h2>
+                <h2 class="w3-wide w3-center" style="font-family: 'Raleway', sans-serif;">CONTACT</h2>
                 <p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
                 <div class="w3-row w3-padding-32">
                     <div class="w3-col m6 w3-large w3-margin-bottom">
@@ -250,26 +252,26 @@
 
         <!-- Footer -->
         <footer style="text-decoration: none;" class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
-            
+
             <a href="https://www.facebook.com/PockyUSA/">
                 <i class="fa fa-facebook-official w3-hover-opacity"></i>
             </a>
-          
+
             <a href="https://www.instagram.com/pockyusa/">
                 <i class="fa fa-instagram w3-hover-opacity"></i>
             </a>
-           
+
             <!-- pocky has no snapchat or pinterest <i class="fa fa-snapchat w3-hover-opacity"></i>
-           
-            <i class="fa fa-pinterest-p w3-hover-opacity"></i>-->
-            
+
+<i class="fa fa-pinterest-p w3-hover-opacity"></i>-->
+
             <a href="https://twitter.com/pockyusa?lang=en">
-               <i class="fa fa-twitter w3-hover-opacity"></i>
+                <i class="fa fa-twitter w3-hover-opacity"></i>
             </a>
-    
-                
+
+
             <!-- linkedin smh <i class="fa fa-linkedin w3-hover-opacity"></i>-->
-           
+
             <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
         </footer>
 
