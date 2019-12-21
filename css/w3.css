@@ -326,7 +326,7 @@ a {
 
 .w3-hoverable tbody tr:hover,
 .w3-ul.w3-hoverable li:hover {
-    background-color: #ccc
+    background-color: #ff0000
 }
 
 .w3-centered tr th,
@@ -475,13 +475,13 @@ a {
 
 .w3-dropdown-hover:first-child,
 .w3-dropdown-click:hover {
-    background-color: #ccc;
+    background-color: #ff0000;
     color: #000
 }
 
 .w3-dropdown-hover:hover > .w3-button:first-child,
 .w3-dropdown-click:hover > .w3-button:first-child {
-    background-color: #ccc;
+    background-color: #ff0000;
     color: #000
 }
 
@@ -1430,8 +1430,8 @@ a {
 }
 
 .w3-button:hover {
-    color: #000!important;
-    background-color: #ccc!important
+    color: #ffffff!important;
+    background-color: #ff0000!important;
 }
 
 .w3-transparent,

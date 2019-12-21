@@ -104,7 +104,7 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
 
 
 
-                <div class="w3-bar w3-black">
+                <div class="w3-bar w3-black" style="border-radius: 4px;">
                     <button class="w3-bar-item w3-button" onclick="openCity('London')">Strawberry!</button>
                     <button class="w3-bar-item w3-button" onclick="openCity('Paris')">Chocolate Banana!</button>
                     <button class="w3-bar-item w3-button" onclick="openCity('Tokyo')">Cookies and Cream!</button>
@@ -116,28 +116,31 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
                         <div class="w3-third">
                             <p>Strawberry!</p>
                             <img src="img/flavorstrawberry.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+                            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" style="margin-left: 600px; margin-bottom: 30px">Order Here!</button>
                         </div>
                     </div>
                 </div>
 
 
-                <div id="Paris" class="city" style="display: none">
+                <div id="Paris" class="city w3-border" style="display: none; margin-bottom: 20px">
                     <h2>Chocolate Banana</h2>
                     <div class="w3-row">
                         <div class="w3-third">
                             <p>Chocolate Banana!</p>
                             <img src="img/flavorbanana2.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+                            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" style="margin-left: 600px; margin-bottom: 30px">Order Here!</button>
                         </div>
                     </div>
                 </div>
 
 
-                <div id="Tokyo" class="city" style="display: none">
+                <div id="Tokyo" class="city w3-border" style="display: none; margin-bottom: 20px">
                     <h2>Cookies and Cream</h2>
                     <div class="w3-row">
                         <div class="w3-third">
                             <p>Cookies and Cream!</p>
-                            <img src="img/flavorcookies.png" class="w3-round" alt="Random Name" style="width:60%">
+                            <img src="img/flavorcookies.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+                            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" style="margin-left: 600px; margin-bottom: 30px">Order Here!</button>
                         </div>
                     </div>
                 </div>
@@ -250,8 +253,6 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
                             <h2 class="w3-wide"><i class="fa fa-suitcase w3-margin-right"></i>Order Now!</h2>
                         </header>
                         <div class="w3-container">
-                            <p><label><i class="fa fa-flavors"></i> Flavors</label></p><input class=" w3-input w3-border" type="text" placeholder="Choose your favorite!">
-
                             <p><label><i class="fa fa-shopping-cart"></i> Number of boxes, $4.99 per box</label></p>
                             <input class="w3-input w3-border" type="text" placeholder="How many boxes?">
                             <p><label><i class="fa fa-user"></i> Send to</label></p>
@@ -292,6 +293,7 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
 
                 <!-- End Page Content -->
             </div>
+        </div>
 
             <!-- Image of location/map -->
             <img src="img/bg-end2.jpg" class="w3-image w3-greyscale-min" style="width:100%">
