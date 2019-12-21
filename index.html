@@ -116,6 +116,7 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
                         <div class="w3-third">
                             <p>Strawberry!</p>
                             <img src="img/flavorstrawberry.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+                            <p style="float: right;">Sweeten your day with Glico Pocky Strawberry! A classic Japanese treat, these long skinny biscuits are dipped in a sweet coating of strawberry cream. They’re super yummy and crunchy down to the last bite. Share this jumbo pack with friends or simply keep it in your pantry for those times when you need to satisfy a sweet tooth without going overboard.</p>
                             <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" style="margin-left: 600px; margin-bottom: 30px">Order Here!</button>
                         </div>
                     </div>
@@ -295,69 +296,69 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
             </div>
         </div>
 
-            <!-- Image of location/map -->
-            <img src="img/bg-end2.jpg" class="w3-image w3-greyscale-min" style="width:100%">
+        <!-- Image of location/map -->
+        <img src="img/bg-end2.jpg" class="w3-image w3-greyscale-min" style="width:100%">
 
-            <!-- Footer -->
-            <footer style="text-decoration: none;" class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
+        <!-- Footer -->
+        <footer style="text-decoration: none;" class="w3-container w3-padding-64 w3-center w3-opacity w3-light-grey w3-xlarge">
 
-                <a href="https://www.facebook.com/PockyUSA/">
-                    <i class="fa fa-facebook-official w3-hover-opacity"></i>
-                </a>
+            <a href="https://www.facebook.com/PockyUSA/">
+                <i class="fa fa-facebook-official w3-hover-opacity"></i>
+            </a>
 
-                <a href="https://www.instagram.com/pockyusa/">
-                    <i class="fa fa-instagram w3-hover-opacity"></i>
-                </a>
+            <a href="https://www.instagram.com/pockyusa/">
+                <i class="fa fa-instagram w3-hover-opacity"></i>
+            </a>
 
-                <!-- pocky has no snapchat or pinterest <i class="fa fa-snapchat w3-hover-opacity"></i>
+            <!-- pocky has no snapchat or pinterest <i class="fa fa-snapchat w3-hover-opacity"></i>
 
 <i class="fa fa-pinterest-p w3-hover-opacity"></i>-->
 
-                <a href="https://twitter.com/pockyusa?lang=en">
-                    <i class="fa fa-twitter w3-hover-opacity"></i>
-                </a>
+            <a href="https://twitter.com/pockyusa?lang=en">
+                <i class="fa fa-twitter w3-hover-opacity"></i>
+            </a>
 
 
-                <!-- linkedin smh <i class="fa fa-linkedin w3-hover-opacity"></i>-->
+            <!-- linkedin smh <i class="fa fa-linkedin w3-hover-opacity"></i>-->
 
-                <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
-            </footer>
+            <p class="w3-medium">Powered by <a href="https://www.w3schools.com/w3css/default.asp" target="_blank">w3.css</a></p>
+        </footer>
 
-            <script>
-                // Automatic Slideshow - change image every 4 seconds
-                var myIndex = 0;
-                carousel();
+        <script>
+            // Automatic Slideshow - change image every 4 seconds
+            var myIndex = 0;
+            carousel();
 
-                function carousel() {
-                    var i;
-                    var x = document.getElementsByClassName("mySlides");
-                    for (i = 0; i < x.length; i++) {
-                        x[i].style.display = "none";  
-                    }
-                    myIndex++;
-                    if (myIndex > x.length) {myIndex = 1}    
-                    x[myIndex-1].style.display = "block";  
-                    setTimeout(carousel, 4000);    
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("mySlides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
                 }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 4000);    
+            }
 
-                // Used to toggle the menu on small screens when clicking on the menu button
-                function myFunction() {
-                    var x = document.getElementById("navDemo");
-                    if (x.className.indexOf("w3-show") == -1) {
-                        x.className += " w3-show";
-                    } else { 
-                        x.className = x.className.replace(" w3-show", "");
-                    }
+            // Used to toggle the menu on small screens when clicking on the menu button
+            function myFunction() {
+                var x = document.getElementById("navDemo");
+                if (x.className.indexOf("w3-show") == -1) {
+                    x.className += " w3-show";
+                } else { 
+                    x.className = x.className.replace(" w3-show", "");
                 }
+            }
 
-                // When the user clicks anywhere outside of the modal, close it
-                var modal = document.getElementById('ticketModal');
-                window.onclick = function(event) {
-                    if (event.target == modal) {
-                        modal.style.display = "none";
-                    }
+            // When the user clicks anywhere outside of the modal, close it
+            var modal = document.getElementById('ticketModal');
+            window.onclick = function(event) {
+                if (event.target == modal) {
+                    modal.style.display = "none";
                 }
-            </script>
+            }
+        </script>
 
-            </body>
-        </html>
+    </body>
+</html>
