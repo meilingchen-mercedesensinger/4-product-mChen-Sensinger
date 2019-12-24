@@ -85,7 +85,7 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
 
             <!-- The Band Section -->
             <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; text-align: center;" id="band">
-                 <h2 class="w3-wide" style="font-family: 'Raleway', sans-serif;">POCKY</h2>
+                <h2 class="w3-wide" style="font-family: 'Raleway', sans-serif;">POCKY</h2>
                 <p class="w3-opacity"><i>What is it?</i></p>
                 <p class="w3-justify">Pocky is a snack food produced by Ezaki Glico. Pocky was first sold in 1966, and were invented by Yoshiaki Koma. They consist of chocolate-coated biscuit sticks. It was named after the Japanese onomatopoetic word pokkin (ポッキン).
 
@@ -96,15 +96,12 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
                     In Europe Pocky is produced under license by Mondelēz International and sold under the name "Mikado" in Austria, Belgium, France, Germany, Greece, Italy, Ireland, Luxembourg, Spain, Switzerland and the United Kingdom. "Mikado" can be found at most supermarkets and many international food stores.
 
                     In the United States and Canada Pocky can be found in Asian supermarkets and the international section of most large supermarkets</p>
-            
-                
-            </div>
-              
 
 
-            <!--flavor section-->
+
             <div id="flavors">
-                 <h2 style="margin-top:10%; font-family: 'Raleway', sans-serif; letter-spacing: 2px">FLAVORS</h2>
+
+                <h2 style="margin-top:10%; font-family: 'Raleway', sans-serif; letter-spacing: 2px">FLAVORS</h2>
                 <div class="w3-bar w3-black" style="border-radius: 4px; ">
                     <button class="w3-bar-item w3-button" onclick="openCity('chocolate')">Chocolate</button>
                     <button class="w3-bar-item w3-button" onclick="openCity('London')">Strawberry</button>
@@ -180,6 +177,7 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
                     }
                 </script>
 
+
             </div>
 
 
@@ -194,10 +192,10 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
                     <p class="w3-opacity w3-center"><i>Look for us in the Asian foods aisle!</i></p><br>
 
                     <!--   <ul class="w3-ul w3-border w3-white w3-text-grey">
-                    <li class="w3-padding">idk what to put her<span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-                    <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-                    <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
-                    </ul>-->
+<li class="w3-padding">idk what to put her<span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+<li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+<li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+</ul>-->
 
                     <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
                         <div class="w3-third w3-margin-bottom">
