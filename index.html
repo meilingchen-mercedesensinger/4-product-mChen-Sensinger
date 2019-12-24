@@ -85,7 +85,7 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
 
             <!-- The Band Section -->
             <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px; text-align: center;" id="band">
-                <h2 class="w3-wide" style="font-family: 'Raleway', sans-serif;">POCKY</h2>
+                 <h2 class="w3-wide" style="font-family: 'Raleway', sans-serif;">POCKY</h2>
                 <p class="w3-opacity"><i>What is it?</i></p>
                 <p class="w3-justify">Pocky is a snack food produced by Ezaki Glico. Pocky was first sold in 1966, and were invented by Yoshiaki Koma. They consist of chocolate-coated biscuit sticks. It was named after the Japanese onomatopoetic word pokkin (ポッキン).
 
@@ -96,16 +96,15 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
                     In Europe Pocky is produced under license by Mondelēz International and sold under the name "Mikado" in Austria, Belgium, France, Germany, Greece, Italy, Ireland, Luxembourg, Spain, Switzerland and the United Kingdom. "Mikado" can be found at most supermarkets and many international food stores.
 
                     In the United States and Canada Pocky can be found in Asian supermarkets and the international section of most large supermarkets</p>
-
+            
+                
+            </div>
+              
 
 
             <!--flavor section-->
             <div id="flavors" style="margin-right: 15%; margin-left: 15%; margin-bottom: 4%">
                  <h2 style="font-family: 'Raleway', sans-serif; letter-spacing: 2px" class="w3-center">FLAVORS</h2>
-
-            <div id="flavors">
-
-                <h2 style="margin-top:10%; font-family: 'Raleway', sans-serif; letter-spacing: 2px">FLAVORS</h2>
                 <div class="w3-bar w3-black" style="border-radius: 4px; ">
                     <button class="w3-bar-item w3-button" onclick="openCity('chocolate')">Chocolate</button>
                     <button class="w3-bar-item w3-button" onclick="openCity('London')">Strawberry</button>
@@ -114,63 +113,83 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
                     <button class="w3-bar-item w3-button" onclick="openCity('matcha')">Matcha</button>
                 </div>             
 
-                <div id="chocolate" class="city w3-border" style="display: none; margin-bottom: 20px">
-                    <h2>Chocolate</h2>
+                <div id="chocolate" class="city w3-border" style="display: none; margin-bottom: 20px;">
                     <div class="w3-row">
                         <div class="w3-half">
-                            <img src="img/flavorchocolate.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%"></div><div>
-                        <p style="margin: 80px 20px 20px 20px">The original Pocky! Introduced in 1966 as "the world's first chocolate stick snack," Pocky Chocolate is a tasty, crispy cookie biscuit stick dipped in rich, dark chocolate cream with a unique "handle." Delicious alone or with coffee, tea, milk, or wine, Pocky Chocolate is the perfect every-day, all-occasion chocolate snack.</p>
-                        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" style="margin-left: 600px; margin-bottom: 30px">Order Here!</button>
+                            <img src="img/flavorchocolate.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%"></div>
+                        <div>
+                            <h2 class="w3-center" style="padding-top: 5%;">Chocolate</h2>
+
+                            <p style="margin: 50px 20px 20px 0px">The original Pocky! Introduced in 1966 as "the world's first chocolate stick snack," Pocky Chocolate is a tasty, crispy cookie biscuit stick dipped in rich, dark chocolate cream with a unique "handle." Delicious alone or with coffee, tea, milk, or wine, Pocky Chocolate is the perfect every-day, all-occasion chocolate snack.</p>
+                            
+                            <button class="w3-center w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Order Here!</button>
                         </div>
                     </div>
+                    
+                    
                 </div>
 
 
-                <div id="London" class="city w3-border" style="margin-bottom: 20px"> 
+                <div id="London" class="city w3-border" style="display: none; margin-bottom: 20px;"> 
                     <div class="w3-row">
-                        <h2>Strawberry</h2>
                         <div class="w3-half">
                             <img src="img/flavorstrawberry.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%"></div>
                         <div>
-                            <p style="margin: 90px 20px 20px 20px">Sweeten your day with Glico Pocky Strawberry! A classic Japanese treat, these long skinny biscuits are dipped in a sweet coating of strawberry cream. They’re super yummy and crunchy down to the last bite. Share this jumbo pack with friends or simply keep it in your pantry for those times when you need to satisfy a sweet tooth without going overboard.</p>
-                            <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" style="margin-left: 600px; margin-bottom: 30px">Order Here!</button>
+                            <h2 class="w3-center" style="padding-top: 5%">Strawberry</h2>
+
+                            <p style="margin: 50px 20px 20px 0px">Sweeten your day with Glico Pocky Strawberry! A classic Japanese treat, these long skinny biscuits are dipped in a sweet coating of strawberry cream. They’re super yummy and crunchy down to the last bite. Share this jumbo pack with friends or simply keep it in your pantry for those times when you need to satisfy a sweet tooth without going overboard.</p>
+                            <button class="w3-center w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Order Here!</button>
                         </div>
                     </div>
                 </div>
 
 
-                <div id="Paris" class="city w3-border" style="display: none; margin-bottom: 20px">
-                    <h2>Chocolate Banana</h2>
+                <div id="Paris" class="city w3-border" style="display: none; margin-bottom: 20px;"> 
                     <div class="w3-row">
                         <div class="w3-half">
-                            <img src="img/flavorbanana2.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%"></div><div><p style="margin: 80px 20px 20px 20px">Two delicious flavors combine into one sweet snack. Pairing the light crunch of a chocolate cookie stick with a smooth banana-flavored cream, Chocolate Banana Pocky is the perfect pick-me-up to brighten your day...or a friend's day! It's a no-mess Pocky stick packed with fruity flavor and chocolatey goodness.</p>
-                        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" style="margin-left: 600px; margin-bottom: 30px">Order Here!</button>
+                            <img src="img/flavorbanana2.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%"></div>
+                        <div>
+                            <h2 class="w3-center" style="padding-top: 5%">Chocolate Banana</h2>
+
+                            <p style="margin: 50px 20px 20px 0px">Two delicious flavors combine into one sweet snack. Pairing the light crunch of a chocolate cookie stick with a smooth banana-flavored cream, Chocolate Banana Pocky is the perfect pick-me-up to brighten your day...or a friend's day! It's a no-mess Pocky stick packed with fruity flavor and chocolatey goodness.</p>
+                            <button class="w3-center w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Order Here!</button>
                         </div>
                     </div>
                 </div>
 
-
-                <div id="Tokyo" class="city w3-border" style="display: none; margin-bottom: 20px">
-                    <h2>Cookies and Cream</h2>
+                
+                
+                <div id="Tokyo" class="city w3-border" style="display: none; margin-bottom: 20px;"> 
                     <div class="w3-row">
                         <div class="w3-half">
-                            <img src="img/flavorcookies.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%"></div><div><p style="margin: 80px 20px 20px 20px">Bits of crunchy chocolate cookie bits make Pocky Cookies and Cream an irresistible flavor. Whether you want to share with your friends and family, enjoy it with your cup of coffee, or secretly munch on them in the afternoon, Pocky is perfect no matter the mood.</p>
-                        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" style="margin-left: 600px; margin-bottom: 30px">Order Here!</button>
+                            <img src="img/flavorcookies.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%"></div>
+                        <div>
+                            <h2 class="w3-center" style="padding-top: 5%">Cookies and Cream</h2>
+
+                            <p style="margin: 50px 20px 20px 0px">Bits of crunchy chocolate cookie bits make Pocky Cookies and Cream an irresistible flavor. Whether you want to share with your friends and family, enjoy it with your cup of coffee, or secretly munch on them in the afternoon, Pocky is perfect no matter the mood.</p>
+                            <button class="w3-center w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Order Here!</button>
                         </div>
                     </div>
                 </div>
-
-                <div id="matcha" class="city w3-border" style="display: none; margin-bottom: 20px">
-                    <h2>Matcha</h2>
+                
+                
+                <div id="matcha" class="city w3-border" style="display: none; margin-bottom: 20px;"> 
                     <div class="w3-row">
                         <div class="w3-half">
-                            <img src="img/flavormatcha.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%"></div><div><p style="margin: 80px 20px 20px 20px">A favorite amongst hard-core Pocky fans the world over, Pocky Matcha blends the distinct flavor of finely powdered green tea ("matcha") into a smooth green tea cream wrapped around a tasty, crispy cookie biscuit stick. Light and refreshing, it's the perfect combination of a delicate flavor with a satisfying crunch.</p>
-                        <button class="w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'" style="margin-left: 600px; margin-bottom: 30px">Order Here!</button>
+                            <img src="img/flavormatcha.png" class="w3-round w3-margin-bottom" alt="Random Name" style="width:80%"></div>
+                        <div>
+                            <h2 class="w3-center" style="padding-top: 5%">Matcha</h2>
+
+                            <p style="margin: 50px 20px 20px 0px">A favorite amongst hard-core Pocky fans the world over, Pocky Matcha blends the distinct flavor of finely powdered green tea into a smooth green tea cream wrapped around a tasty, crispy cookie biscuit stick. Light and refreshing, it's the perfect combination of a delicate flavor with a satisfying crunch.</p>
+                            <button class="w3-center w3-button w3-black w3-margin-bottom" onclick="document.getElementById('ticketModal').style.display='block'">Order Here!</button>
                         </div>
                     </div>
                 </div>
-
+                
+                
+                
                 <script>
+                
                     function openCity(cityName) {
                         var i;
                         var x = document.getElementsByClassName("city");
@@ -180,7 +199,6 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
                         document.getElementById(cityName).style.display = "block";
                     }
                 </script>
-
 
             </div>
 
@@ -196,10 +214,10 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
                     <p class="w3-opacity w3-center"><i>Look for us in the Asian foods aisle!</i></p><br>
 
                     <!--   <ul class="w3-ul w3-border w3-white w3-text-grey">
-<li class="w3-padding">idk what to put her<span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-<li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
-<li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
-</ul>-->
+                    <li class="w3-padding">idk what to put her<span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+                    <li class="w3-padding">October <span class="w3-tag w3-red w3-margin-left">Sold out</span></li>
+                    <li class="w3-padding">November <span class="w3-badge w3-right w3-margin-right">3</span></li>
+                    </ul>-->
 
                     <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
                         <div class="w3-third w3-margin-bottom">
@@ -318,7 +336,6 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
 
             <!-- End Page Content -->
         </div>
-        </div>
 
     <!-- Image of location/map -->
     <img src="img/bg-end2.jpg" class="w3-image w3-greyscale-min" style="width:100%">
@@ -386,4 +403,11 @@ button class="w3-padding-large w3-button" title="More" style="letter-spacing: 1.
 
     </body>
 </html>
+
+
+
+
+
+
+
 
